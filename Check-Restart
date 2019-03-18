@@ -1,0 +1,1 @@
+Invoke-WmiMethod -Namespace "ROOT\ccm\ClientSDK" -Class CCM_ClientUtilities -Name DetermineIfRebootPending | select-object -ExpandProperty "RebootPending"
