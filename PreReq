@@ -1,0 +1,4 @@
+cd \Windows\System32\inetsrv\config
+notepad applicationHost.config
+> allow .mdf extensions "True"
+> allow /bin to transfer
