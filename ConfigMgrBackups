@@ -1,0 +1,9 @@
+Site Maintenance - eligant
+SQL Maintenance Plan - All databases (site/wsus/report/master..etc)
+  -C:\ProgramFiles\Microsoft Configuration Manager\cd.latest
+  -E:\SCCMContentLib
+  -C:\SMSPKG
+  -E:\SMSPKGIG$
+  -E:\SMSPKGx$
+  -E:\RemoteInstall
+  \\%DP%\SCCM_SourceFiles
