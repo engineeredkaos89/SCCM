@@ -1,0 +1,9 @@
+Invoke-WMIMethod
+-ComputerName <ComputerName>
+-Namespace root\ccm
+-Class SMS_CLIENT
+-Name TriggerSchedule
+-ArgumentList "{00000000-0000-0000-0000-000000000001}"
+
+https://docs.microsoft.com/en-us/sccm/develop/reference/core/clients/client-classes/triggerschedule-method-in-class-sms_client
+https://blogs.technet.microsoft.com/charlesa_us/2015/03/07/triggering-configmgr-client-actions-with-wmic-without-pesky-right-click-tools/
