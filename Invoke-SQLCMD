@@ -1,0 +1,1 @@
+$results = Invoke-Sqlcmd -ServerInstance "mySqlServer" -Database "myDatabase" -Query "SELECT * FROM MyTable"
